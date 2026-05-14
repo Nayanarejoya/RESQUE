@@ -1,0 +1,37 @@
+{
+  "name": "rescue-system",
+  "version": "1.0.0",
+  "description": "Rescue - Booking, Routing, and Traffic Clearance System",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "jest",
+    "seed": "node server/scripts/seed.js"
+  },
+  "keywords": [
+    "ambulance",
+    "emergency",
+    "healthcare",
+    "smart-city"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "socket.io": "^4.6.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "axios": "^1.5.0",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.4",
+    "twilio": "^4.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0"
+  }
+}
